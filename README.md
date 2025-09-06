@@ -23,7 +23,3 @@ This project showcases my profile, skills, projects, and personal quotes — all
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Design:** Responsive layout with CSS Grid & Flexbox  
 - **Deployment:** GitHub Pages  
-
----
-
-## 📂 Project Structure  
