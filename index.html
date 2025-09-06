@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Namoj Periakumar — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Portfolio of Namoj Periakumar — About, Skills, Projects, Recommendations" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a href="#hero" class="logo">Namoj<span class="dot">.</span></a>
+      <span class="role">Blockchain • Cryptography • Quantum</span>
+    </div>
+
+    <nav class="nav" id="nav">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#recs" class="nav-link">Recommendations</a>
+      <a class="cta" href="https://github.com/Namoj-design" target="_blank" rel="noopener">GitHub</a>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <h1>Hi — I’m <span class="highlight">Namoj Periakumar</span></h1>
+        <p class="lead">
+          Blockchain developer & full-stack tinkerer building decentralised systems, AI agents and weirdly efficient algorithms.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">See Projects</a>
+          <a href="#contact" class="btn ghost">Contact</a>
+        </div>
+        <ul class="quick-stats">
+          <li><strong>RailChains</strong><span>Blockchain for rail</span></li>
+          <li><strong>19 yrs</strong><span>Young Creator</span></li>
+          <li><strong>Rust / Sui / sol</strong><span>Stack & tooling</span></li>
+        </ul>
+      </div>
+      <div class="hero-card">
+        <div class="card-inner">
+          <h3>Current Focus</h3>
+          <p>Decentralised signalling, smart contracts & Post Quantum Cryptography</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="panel about">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I’m Namoj — a curious blockchain developer who turns protocols into practical
+            systems. I enjoy building secure, verifiable systems (RailChains),
+            exploring post-quantum crypto, and automating engineering workflows with AI.
+          </p>
+          <p>
+            I write clean code, love embedded systems prototypes, and I’m obsessed with
+            making distributed systems reliably boring (that is, safe & correct).
+          </p>
+          <p class="muted">
+            Location: Chennai, India • Email: <a href="mailto:namojperiakumar@gmail.com">namojperiakumar@gmail.com</a>
+          </p>
+        </div>
+        <div class="about-meta">
+          <ul>
+            <li><strong>Education</strong><span>2nd year B.Tech (CS)</span></li>
+            <li><strong>Company</strong><span>Namo Industries / RailChains</span></li>
+            <li><strong>Interests</strong><span>Blockchain, Quantum, Cryptography, Farming</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="panel skills">
+      <h2>Skills</h2>
+      <p class="subtitle">Tools & technologies I use frequently</p>
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-head">
+            <span>Rust / Solidity</span><span class="pct">75%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" style="--w:85%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Solidity / Smart Contracts</span><span class="pct">78%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" style="--w:78%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Web (React / Vite)</span><span class="pct">70%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" style="--w:80%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>Embedded (Arduino / NodeMCU)</span><span class="pct">72%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" style="--w:72%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>AI / Agents</span><span class="pct">70%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" style="--w:70%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="panel projects">
+      <h2>Projects</h2>
+      <p class="subtitle">A selection of projects and prototypes</p>
+
+      <div class="projects-grid">
+        <!-- project card -->
+        <article class="proj" data-title="RailChains" data-desc="A blockchain-based railway signalling system with multi-station handover, interlocking and GPS rerouting." data-link="#">
+          <div class="proj-inner">
+            <h3>RailChains</h3>
+            <p class="muted">Decentralised signalling & secure train state logging</p>
+            <div class="tags"><span>Rust</span><span>IoT</span><span>Smart Contracts</span></div>
+            <button class="proj-btn">Details</button>
+          </div>
+        </article>
+
+        <article class="proj" data-title="DecentralShop" data-desc="A decentralized e-commerce demo connecting to MetaMask, with eco-footprint tracking and gamification." data-link="#">
+          <div class="proj-inner">
+            <h3>DecentralShop</h3>
+            <p class="muted">Eco-friendly shopping + blockchain payments</p>
+            <div class="tags"><span>React</span><span>Web3</span></div>
+            <button class="proj-btn">Details</button>
+          </div>
+        </article>
+
+        <article class="proj" data-title="Namo Space" data-desc="Prototype for blockchain-based satellite communication & launcher concept (research-stage)." data-link="#">
+          <div class="proj-inner">
+            <h3>NamoMints</h3>
+            <p class="muted">Minting NFT Tokens On Sui</p>
+            <div class="tags"><span>NFTs</span><span>Generator</span></div>
+            <button class="proj-btn">Details</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="recs" class="panel recs">
+      <h2>My Quotes</h2>
+      <div class="rec-carousel" id="recCarousel">
+        <blockquote class="rec active">
+          “Blockchain is the trust layer for AI.” — Namoj Periakumar
+        </blockquote>
+
+        <blockquote class="rec">
+          “Setting new standards with RailChains.” — Namoj Periakumar
+        </blockquote>
+
+        <blockquote class="rec">
+          “Secure, Smart, Seamless RailChains.” — Namoj Periakumar
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="contact" class="panel contact">
+      <h2>Contact</h2>
+      <p class="subtitle">Want to collaborate or hire? Reach out.</p>
+      <div class="contact-row">
+        <a class="contact-card" href="mailto:namojperiakumar@gmail.com">Email: namojperiakumar@gmail.com</a>
+        <a class="contact-card" href="https://github.com/Namoj-design" target="_blank" rel="noopener">GitHub: @Namoj-design</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Namoj Periakumar — Built with curiosity. <span class="small">Hosted on GitHub</span></p>
+  </footer>
+
+  <!-- Project modal (in-page) -->
+  <div id="projModal" class="modal hidden" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modalClose" class="modal-close" aria-label="Close">✕</button>
+      <h3 id="modalTitle">Project</h3>
+      <p id="modalDesc"></p>
+      <div class="modal-actions">
+        <a id="modalLink" class="btn" target="_blank" rel="noopener">View Repo / Demo</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
